@@ -1,0 +1,77 @@
+i_init(time)                               
+sweep Iled i_readvalue(Iled) 0.006 0.002       
+store all 1  
+i_init(time)                               
+sweep time i_readvalue(time) 320 1         
+store all 1
+i_init(time)                               
+sweep Iheat i_readvalue(Iheat) 0.01 0.0001 
+store all 1                                
+i_init(time)                               
+sweep time i_readvalue(time) 280 1         
+store all 1 
+i_init(time)                               
+sweep Iheat i_readvalue(Iheat) 0.02 0.0001 
+store all 1                                
+i_init(time)                               
+sweep time i_readvalue(time) 280 1         
+store all 1 
+i_init(time)                               
+sweep Iheat i_readvalue(Iheat) 0.03 0.0001 
+store all 1                                
+i_init(time)                               
+sweep time i_readvalue(time) 280 1         
+store all 1 
+i_init(time)                               
+sweep Iheat i_readvalue(Iheat) 0.04 0.0001 
+store all 1                                
+i_init(time)                               
+sweep time i_readvalue(time) 280 1         
+store all 1 
+i_init(time)                               
+sweep Iheat i_readvalue(Iheat) 0.06 0.0001 
+store all 1                                
+i_init(time)                               
+sweep time i_readvalue(time) 280 1         
+store all 1                                
+i_init(time)                               
+sweep Iheat i_readvalue(Iheat) 0.065 0.0001
+store all 1                                
+i_init(time)                               
+sweep time i_readvalue(time) 240 1         
+store all 1                                
+i_init(time)                               
+sweep Iheat i_readvalue(Iheat) 0.07 0.0001 
+store all 1                                
+i_init(time)                               
+sweep time i_readvalue(time) 200 1         
+store all 1                                
+i_init(time)                               
+sweep Iheat i_readvalue(Iheat) 0.075 0.0001
+store all 1                                
+i_init(time)                               
+sweep time i_readvalue(time) 200 1         
+store all 1                                
+i_init(time)                               
+sweep Iheat i_readvalue(Iheat) 0.08 0.0001 
+store all 1                                
+i_init(time)                               
+sweep time i_readvalue(time) 500 1         
+store all 1                                
+i_init(time)                               
+sweep Iheat i_readvalue(Iheat) 0.084 0.0001
+store all 1                                
+i_init(time)                               
+sweep time i_readvalue(time) 500 1         
+store all 1                                
+i_init(time)                               
+sweep Iheat i_readvalue(Iheat) 0.085 0.0001
+store all 1                                
+while 1                                    
+if i_readvalue(Rxx3)>1.51e-5               
+break                                      
+end                                        
+end                                        
+i_init(time)                               
+sweep Iled i_readvalue(Iled) 0 0.002       
+store all 1                                
